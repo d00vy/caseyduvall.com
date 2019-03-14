@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #000;
 		overflow: hidden;
 	}
 
@@ -214,11 +214,11 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("https://source.unsplash.com/collection/357786/?wide") bottom left;
+		background: #666 url("https://source.unsplash.com/uLXBeh6oHn8") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
-		opacity: 0.7;
+		opacity: 0.8;
 		position: fixed;
 		top: 0;
 	}
@@ -519,10 +519,10 @@ input, select, textarea {
 	}
 
 	#header {
-		-moz-animation: header 1s 2.25s forwards;
-		-webkit-animation: header 1s 2.25s forwards;
-		-ms-animation: header 1s 2.25s forwards;
-		animation: header 1s 2.25s forwards;
+		-moz-animation: header 1s 1s forwards;
+		-webkit-animation: header 1s 1s forwards;
+		-ms-animation: header 1s 1s forwards;
+		animation: header 1s 1s forwards;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -700,10 +700,10 @@ input, select, textarea {
 
 /*  */
 #feed {
-	-moz-animation: header 1s 2.25s forwards;
-	-webkit-animation: header 1s 2.25s forwards;
-	-ms-animation: header 1s 2.25s forwards;
-	animation: header 1s 2.25s forwards;
+	-moz-animation: header 1s 3.5s forwards;
+	-webkit-animation: header 1s 3.5s forwards;
+	-ms-animation: header 1s 3.5s forwards;
+	animation: header 1s 3.5s forwards;
 	-moz-backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
@@ -720,7 +720,7 @@ input, select, textarea {
 	margin-top: 50px;
 	vertical-align: middle;
 	max-width: 40%;
-	background-color: #fff;
+	/* background-color: #fff; */
 }
 
 	#feed h1 {
